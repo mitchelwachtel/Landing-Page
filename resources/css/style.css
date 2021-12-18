@@ -6,25 +6,31 @@
 header {
   background-color: wheat;
   color: steelblue;
-  position: relative;
+  border: 2px solid steelblue;
+}
+
+h1 {
+  font-size: 40px;
+
 }
 
 #nav-list {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  position: absolute;
-  top: 0;
-  right: 0;
 }
 
 li {
-  float: right;
+  display: inline;
+  margin: 5px;
 }
 
 a {
-  display: block;
+  display: inline;
   padding: 8px;
+  font-size: 20px;
 }
 
-
+#pic {
+  width: 200px;
+}

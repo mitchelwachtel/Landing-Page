@@ -1,36 +1,57 @@
 /*single font & font-family*/
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
+  background-color:rosybrown;
 }
 
 header {
+  height: 100px;
+  width: auto;
   background-color: wheat;
   color: steelblue;
-  border: 2px solid steelblue;
+  border: 3px solid steelblue;
+  position: relative;
 }
 
 h1 {
   font-size: 40px;
-
+  position: absolute;
+  display: block;
+  left: 20px;
+  background-color: wheat;
 }
 
 #nav-list {
   list-style-type: none;
-  margin: 0;
+  margin: auto;
   padding: 0;
+  position: absolute;
+  top: 40px;
+  right: 4px;
+  display: block;
+  background-color: wheat;
+  
 }
 
 li {
   display: inline;
   margin: 5px;
+  
 }
 
 a {
   display: inline;
   padding: 8px;
   font-size: 20px;
+  color: steelblue;
+  background-color: wheat;
 }
 
 #pic {
-  width: 200px;
+  width: 240px;
+  margin: 30px auto 30px;
+  display: block;
+  padding: 3px;
+  background-color: steelblue;
+  border: 3px solid wheat;
 }

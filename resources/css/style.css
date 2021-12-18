@@ -1,7 +1,7 @@
 /*single font & font-family*/
 * {
   font-family: Georgia, "Times New Roman", Times, serif;
-  background-color:rosybrown;
+  background-color: rosybrown;
 }
 
 header {
@@ -30,13 +30,11 @@ h1 {
   right: 4px;
   display: block;
   background-color: wheat;
-  
 }
 
 li {
   display: inline;
   margin: 5px;
-  
 }
 
 a {
@@ -49,9 +47,59 @@ a {
 
 #pic {
   width: 240px;
-  margin: 30px auto 30px;
+  margin: 30px auto 3px;
   display: block;
   padding: 3px;
   background-color: steelblue;
-  border: 3px solid wheat;
+  border: 10px solid wheat;
+}
+
+p {
+  text-align: center;
+  color: steelblue;
+  background-color: wheat;
+  margin: 10px;
+}
+
+.image {
+  background-color: wheat;
+  width: 360px;
+  height: 600px;
+  display: block;
+  margin: auto;
+  border: 3px solid steelblue;
+}
+
+footer {
+  background-color: wheat;
+  border: 3px solid steelblue;
+}
+
+h3 {
+  color: steelblue;
+  text-align: center;
+  background-color: wheat;
+}
+
+#contact-form, h2, form, .form-line{
+  display: block;
+  background-color: wheat;
+  color: steelblue;
+  text-align: center;
+  margin: auto;
+}
+
+input, label {
+  background-color: wheat;
+  color: steelblue;
+}
+
+h2{
+  margin: 20px auto;
+}
+
+#contact-form {
+  height: 160px;
+  width: 400px;
+  border: 3px solid steelblue;
 }

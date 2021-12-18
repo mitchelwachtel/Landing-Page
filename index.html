@@ -2,7 +2,7 @@
 <html lang="en-US">
   <head>
     <link rel="stylesheet" href="./resources/css/style.css" />
-    <title>Hat!</title>
+    <title>Landing Page</title>
     <meta charset="UTF-8" />
   </head>
   <body>
@@ -10,7 +10,7 @@
     <!--header: should contain a nav bar w/ 3 inline links including contact link-->
     <!--header: contact link should send page directly to the contact form-->
     <header>
-      <h1>Landing Page</h1>
+      <h1>Two Dudes</h1>
       <nav>
         <ul id="nav-list">
           <li><a href="###">Home</a></li>
@@ -19,22 +19,55 @@
         </ul>
       </nav>
     </header>
+    <br />
+    <br />
     <main>
       <!--Image with a caption & descriptive alt attribute-->
       <section class="image">
-        <img id="pic" src="./resources/images/J&M.jpeg" alt="Mitch and Jones!" />
-        <p>Jones with a hat.</p>
+        <img
+          id="pic"
+          src="./resources/images/J&M.jpeg"
+          alt="Mitch and Jones! Jones is wearing a hat!"
+        />
+        <p>
+          Mitch and Jones. Jones is wearing a hat. It really is not his hat.
+          It's Jones' mother's hat. He is enjoying this moment. So is Mitch.
+          <br />
+          <br />
+          If you would like to join a mailing list and hear about more family experiences, we can allow that! Fill out with you contact info below and
+          we will be happy to share with you more of our experiences. <br />
+          <br />
+          You can go make memories with your kids too.
+        </p>
       </section>
       <br />
       <!--form: needs input elements of name & email-->
       <!--form: includes a send button-->
       <section id="contact-form">
         <h2>Contact Form</h2>
-        
+
+        <form>
+          <!-- Is grouping the lines in the form by section valid semantic?? -->
+          <section class="form-line">
+            <label for="fname">First name:</label>
+            <input type="text" id="fname" name="fname" />
+          </section>
+          <section class="form-line">
+            <label for="lname">Last name:</label>
+            <input type="text" id="lname" name="lname" />
+          </section>
+          <section class="form-line">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" />
+          </section>
+          <input type="submit" value="Send" />
+        </form>
       </section>
     </main>
+    <br />
+    <br />
     <footer>
-      
+      <h3>&copy; Two Dudes Inc.</h3>
     </footer>
   </body>
 </html>
